@@ -1,9 +1,6 @@
 name: '01 build'
 
-on:
-  push:
-    paths:
-        01.hw-cicd
+on: push
 
 jobs:
   build:
