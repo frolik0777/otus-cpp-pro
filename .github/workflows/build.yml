@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
+            cd 01.hw-cicd
             mkdir build && cd build
             cmake ..
             cmake --build .
